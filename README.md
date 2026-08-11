@@ -7,7 +7,7 @@ A simple and responsive Pomodoro productivity timer built using HTML, CSS and Ja
 
 ## 🌐 Live Demo
 
-Coming soon
+ https://prathampatil2002.github.io/Pomodoro-Timer/
 
 ## ✨ Features
 
