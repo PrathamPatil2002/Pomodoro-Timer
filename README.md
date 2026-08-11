@@ -38,6 +38,7 @@ pomodoro-timer/
 ├── style.css  
 ├── script.js  
 └── README.md
+
 ## 📬 Contact
 
 **Pratham Laxman Patil**
@@ -48,7 +49,4 @@ pomodoro-timer/
 - LinkedIn: https://www.linkedin.com/in/pratham-patil-3a8ba9282/
 
 ⭐ If you like this project, don't forget to star the repository!
-- Event handling
-- Local Storage
-- Dynamic UI updates
-- Responsive CSS
+
