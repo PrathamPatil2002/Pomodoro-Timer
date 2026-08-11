@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eef2ff,
+            #dbeafe
+        );
+
+    color: #111827;
+
+    transition: 0.3s;
+
+}
+
+
+.app {
+
+    width: 100%;
+
+    max-width: 800px;
+
+    margin: auto;
+
+    padding: 35px 20px;
+
+}
+
+
+header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+h1 {
+
+    font-size: 32px;
+
+    margin-bottom: 6px;
+
+}
+
+
+header p {
+
+    color: #6b7280;
+
+}
+
+
+.theme-btn {
+
+    width: 45px;
+
+    height: 45px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: white;
+
+    cursor: pointer;
+
+    font-size: 20px;
+
+    box-shadow:
+        0 5px 15px
+        rgba(0,0,0,.1);
+
+}
+
+
+/* TIMER */
+
+.timer-card {
+
+    background: white;
+
+    border-radius: 24px;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 40px
+        rgba(0,0,0,.1);
+
+}
+
+
+.mode {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.mode-btn {
+
+    border: none;
+
+    padding: 10px 25px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    background: #f3f4f6;
+
+    color: #4b5563;
+
+    font-weight: bold;
+
+}
+
+
+.mode-btn.active {
+
+    background: #2563eb;
+
+    color: white;
+
+}
+
+
+.timer {
+
+    font-size: 100px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin: 20px 0;
+
+}
+
+
+.status {
+
+    color: #6b7280;
+
+    margin-bottom: 25px;
+
+}
+
+
+.controls {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+}
+
+
+.controls button {
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 9px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+
+
+.primary {
+
+    background: #2563eb;
+
+    color: white;
+
+}
+
+
+.secondary {
+
+    background: #e5e7eb;
+
+    color: #374151;
+
+}
+
+
+.primary:hover {
+
+    background: #1d4ed8;
+
+}
+
+
+.secondary:hover {
+
+    background: #d1d5db;
+
+}
+
+
+/* STATS */
+
+.stats {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-top: 20px;
+
+}
+
+
+.stat-card {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow:
+        0 8px 20px
+        rgba(0,0,0,.07);
+
+}
+
+
+.stat-card span {
+
+    display: block;
+
+    color: #6b7280;
+
+    font-size: 13px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.stat-card strong {
+
+    font-size: 20px;
+
+}
+
+
+/* INFO */
+
+.info {
+
+    background: white;
+
+    margin-top: 20px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+}
+
+
+.info h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.info p {
+
+    color: #6b7280;
+
+    line-height: 1.6;
+
+}
+
+
+footer {
+
+    text-align: center;
+
+    color: #6b7280;
+
+    font-size: 13px;
+
+    padding: 25px;
+
+}
+
+
+/* DARK MODE */
+
+body.dark {
+
+    background:
+        linear-gradient(
+            135deg,
+            #020617,
+            #111827
+        );
+
+    color: #f9fafb;
+
+}
+
+
+body.dark .timer-card,
+body.dark .stat-card,
+body.dark .info {
+
+    background: #1f2937;
+
+    color: white;
+
+}
+
+
+body.dark header p,
+body.dark .status,
+body.dark .info p,
+body.dark .stat-card span {
+
+    color: #9ca3af;
+
+}
+
+
+body.dark .theme-btn {
+
+    background: #374151;
+
+}
+
+
+body.dark .secondary,
+body.dark .mode-btn {
+
+    background: #374151;
+
+    color: #f9fafb;
+
+}
+
+
+body.dark .mode-btn.active {
+
+    background: #2563eb;
+
+    color: white;
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .app {
+
+        padding: 25px 15px;
+
+    }
+
+
+    h1 {
+
+        font-size: 25px;
+
+    }
+
+
+    .timer {
+
+        font-size: 65px;
+
+    }
+
+
+    .timer-card {
+
+        padding: 30px 15px;
+
+    }
+
+
+    .stats {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+}
