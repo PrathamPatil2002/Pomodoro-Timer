@@ -1,4 +1,4 @@
-# Pomodoro-Timer-
+# Pomodoro-Timer
 
 <img width="1340" height="636" alt="pomodoro timer 1" src="https://github.com/user-attachments/assets/6481c3a6-113e-4a8f-b7da-c5debc2c670f" />
 
