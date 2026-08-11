@@ -1,6 +1,7 @@
 # Pomodoro-Timer
 
-<img width="1340" height="636" alt="pomodoro timer 1" src="https://github.com/user-attachments/assets/6481c3a6-113e-4a8f-b7da-c5debc2c670f" />
+<img width="1349" height="644" alt="Pomodoro Timer" src="https://github.com/user-attachments/assets/6de7c362-8094-4c37-a653-291403b2537c" />
+
 
 A simple and responsive Pomodoro productivity timer built using HTML, CSS and JavaScript.
 
