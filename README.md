@@ -38,17 +38,16 @@ pomodoro-timer/
 ├── style.css  
 ├── script.js  
 └── README.md
+## 📬 Contact
 
-## ▶️ Run Locally
+**Pratham Laxman Patil**
+- Phone no: +917385202939
+- Email: prathamlpatil837@gmail.com   
+- Location: Pune,Maharashtra,India 
+- GitHub: https://github.com/PrathamPatil2002
+- LinkedIn: https://www.linkedin.com/in/pratham-patil-3a8ba9282/
 
-1. Clone this repository.
-2. Open the project folder.
-3. Open `index.html` in your browser.
-
-## 💡 What I Learned
-
-- JavaScript timers using setInterval()
-- DOM manipulation
+⭐ If you like this project, don't forget to star the repository!
 - Event handling
 - Local Storage
 - Dynamic UI updates
