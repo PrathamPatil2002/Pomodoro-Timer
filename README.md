@@ -6,7 +6,6 @@
 A simple and responsive Pomodoro productivity timer built using HTML, CSS and JavaScript.
 
 ## 🌐 Live Demo
-
  https://prathampatil2002.github.io/Pomodoro-Timer/
 
 ## ✨ Features
